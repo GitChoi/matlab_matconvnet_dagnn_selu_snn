@@ -4,8 +4,8 @@ classdef my_SeLU < dagnn.ElementWise
     % https://arxiv.org/abs/1706.02515
     
     properties
-        l = 1       % alpha
-        a = 0.1     % lambda
+        l = 1.0507       % alpha
+        a = 1.6733     % lambda
     end
     
     properties (Transient)
